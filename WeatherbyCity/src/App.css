@@ -1,0 +1,64 @@
+body{
+  background-color: black;
+}
+input{
+  caret-color: blue;
+  text-align: center;
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  background: #ecf0f3;
+  padding: 10px;
+  padding-left: 20px;
+  height: 50px;
+  font-size: 14px;
+  border-radius: 50px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+.btn{
+  background-color: grey;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+}
+.btn:hover {
+  background-color: black;
+  color: white;
+  font-size: 14px;
+}
+.wetherBg{
+  background-color: black;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading{
+  color:white;
+  font-weight: 700;
+}
+.wetherResultBox{
+  margin: auto;
+  width: 500px;
+  height: 300px;
+  margin-top: 16px;
+}
+.weathorIcon{
+  margin-top: 2rem;
+  width: 100px;
+  height: 100px;
+}
+.weathorCity{
+  font-size: 35px;
+  color: white;
+}
+.weathorTemp{
+  font-size:55px;
+  font-weight: 700;
+  color: white;
+}
